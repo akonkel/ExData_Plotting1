@@ -24,7 +24,7 @@ plot(consump2$datetime,consump2$global_active_power,ty='l',ylab='Global Active P
 plot(consump2$datetime,consump2$sub_metering_1,ty='l',ylab='Energy sub metering',xlab='')
 lines(consump2$datetime,consump2$sub_metering_2,col='red')
 lines(consump2$datetime,consump2$sub_metering_3,col='blue')
-legend('topright',legend=c('Sub_metering_1','Sub_metering_2','Sub_metering_2'),col=c('black','red','blue'),lwd=1)
+legend('topright',legend=c('Sub_metering_1','Sub_metering_2','Sub_metering_3'),col=c('black','red','blue'),lwd=1,bty='n')
 #plot 3
 plot(consump2$datetime,consump2$voltage,ty='l',ylab='Voltage',xlab='datetime')
 #plot 4
